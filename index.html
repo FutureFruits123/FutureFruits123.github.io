@@ -7,10 +7,19 @@
     <meta charset="utf-8" />
   </head>
   <body>
-    <main>
-        <p>Hello, my name is Iain, although I prefer being referred to as Lucas. I am currently a senior at Pasadena High School. I am interested in computer science, software development, and game development.</p>
-        <p>These are a few of my projects:</p>
-    </main>
-    <script src="sketch.js"></script>
+    <a-scene id = "scene1">
+      <button onclick = "switchScene()" style = "position: absolute; z-index: 1"> Switch Scene</button>
+
+      <p>Hello, my name is Iain, although I prefer being referred to as Lucas. I am currently a senior at Pasadena High School. I am interested in computer science, software development, and game development.</p>
+      <p>These are a few of my projects:</p>
+    </a-scene>
+
+    <a-scene id = "scene2" style = "display:none">
+
+      <button onclick = "switchScene()" style = "position: absolute; z-index: 1"> Switch Scene</button>
+      <p>fortnite</p>
+      
+    </a-scene>
+    <script src="script.js"></script>
   </body>
 </html>
