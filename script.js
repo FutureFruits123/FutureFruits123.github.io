@@ -6,10 +6,10 @@ function switchScene() {
         scene1.style.display = 'none';
         scene2.style.display = 'block';
     }
-
+    /*
     else {
         scene1.style.display = 'block';
         scene2.style.display = 'none';
     }
-
+    */
 }
