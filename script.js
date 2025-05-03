@@ -17,6 +17,20 @@ function switchScene() {
 */
 var activePage = 0
 
+function homePage() {
+    const home = document.getElementById("home")
+    const project1 = document.getElementById("project1")
+    const project2 = document.getElementById("project2")
+
+    if (activePage !== 0) {
+        home.style.display = 'block';
+        project1.style.display = 'none';
+        project2.style.display = 'none';
+        
+        activePage = 0
+    }
+}
+
 function project1Page() {
     const home = document.getElementById("home")
     const project1 = document.getElementById("project1")
@@ -31,16 +45,16 @@ function project1Page() {
     }
 }
 
-function homePage() {
+function project2Page() {
     const home = document.getElementById("home")
     const project1 = document.getElementById("project1")
     const project2 = document.getElementById("project2")
 
-    if (activePage !== 0) {
-        home.style.display = 'block';
+    if (activePage !== 2) {
+        home.style.display = 'none';
         project1.style.display = 'none';
-        project2.style.display = 'none';
+        project2.style.display = 'block';
         
-        activePage = 0
+        activePage = 2
     }
 }
