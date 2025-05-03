@@ -23,9 +23,9 @@ function project1Page() {
     const project2 = document.getElementById("project2")
 
     if (activePage !== 1) {
-        home.style.display = 'none';
-        project1.style.display = 'block';
-        project2.style.display = 'none';
+        home.style.display = 'block';
+        project1.style.display = 'none';
+        project2.style.display = 'block';
         
         activePage = 1
     }
