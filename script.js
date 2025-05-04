@@ -1,4 +1,4 @@
-var activePage = 0
+let activePage = 0
 
 function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
     const home = document.getElementById("home")
