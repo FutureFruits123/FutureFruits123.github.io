@@ -5,17 +5,12 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
     const project1 = document.getElementById("project1")
     const project2 = document.getElementById("project2")
 
-    /*if (activePage !== pageNumber) {
+    if (activePage !== pageNumber) {
         pageBlock.style.display = 'block';
         pageNone1.style.display = 'none';
         pageNone2.style.display = 'none';
         
         activePage = pageNumber
-    }*/
-
-    if (pageNumber !== 3) {
-        
-        pageNumber = 3
     }
 
     pageBlock.style.display = 'block';
