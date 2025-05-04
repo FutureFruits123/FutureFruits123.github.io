@@ -7,8 +7,8 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
 
     if (activePage !== pageNumber) {
         pageBlock.style.display = 'block';
-        pageNone1.style.display = 'none';
-        pageNone2.style.display = 'none';
+        pageNone1.style.display = 'block';
+        pageNone2.style.display = 'block';
         
         activePage = pageNumber
     }
