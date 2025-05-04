@@ -12,8 +12,4 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
         
         activePage = pageNumber
     }
-
-    pageBlock.style.display = 'block';
-    pageNone1.style.display = 'none';
-    pageNone2.style.display = 'none';
 }
