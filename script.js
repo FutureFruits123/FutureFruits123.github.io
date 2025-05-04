@@ -13,6 +13,11 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
         activePage = pageNumber
     }*/
 
+    if (pageNumber !== 3) {
+        
+        pageNumber = 3
+    }
+
     pageBlock.style.display = 'block';
     pageNone1.style.display = 'none';
     pageNone2.style.display = 'none';
