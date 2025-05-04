@@ -1,4 +1,4 @@
-//var activePage = 0
+var activePage = 0
 
 function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
     const home = document.getElementById("home")
@@ -16,7 +16,4 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
     pageBlock.style.display = 'block';
     pageNone1.style.display = 'none';
     pageNone2.style.display = 'none';
-        
-
-    
 }
