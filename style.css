@@ -32,3 +32,11 @@ img{
     border-radius:25px;
     width:40%
 }
+
+#test{
+    display:flex;
+    flex-direction:column;
+    margin:auto;
+    justify-content:center;
+    align-items:center;
+}
