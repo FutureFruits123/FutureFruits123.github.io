@@ -4,10 +4,11 @@
 
 button{
     display:flex;
+    flex-direction:row;
     justify-content:right;
     background:black;
     color:white;
-    border:5px solid white;
+    border:2px solid white;
 }
 
 #resume{
@@ -16,6 +17,8 @@ button{
 
 #bio{
     display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
     justify-content:center;
 }
 
