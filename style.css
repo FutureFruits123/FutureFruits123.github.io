@@ -73,7 +73,7 @@ img{
     font-size:22px;
 }
 
-#pageMainFlex{
+#homeFlex, .projectFlex{
     display:flex;
     flex-direction:column;
     margin:auto;
