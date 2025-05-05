@@ -49,7 +49,7 @@ button{
 }
 
 img{
-    border-radius:35px;
+    border-radius:50px;
 }
 
 .homeImg{
@@ -73,7 +73,7 @@ img{
     font-size:22px;
 }
 
-#homeFlex, .projectFlex{
+#pageMainFlex{
     display:flex;
     flex-direction:column;
     margin:auto;
@@ -93,4 +93,8 @@ img{
 .firstImg{
     margin-top:75px;
     width:70%;
+}
+
+.projectImg{
+    width:50%;
 }
