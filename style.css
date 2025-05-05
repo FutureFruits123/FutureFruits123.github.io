@@ -2,7 +2,7 @@
     background:#ff69b4;
 }
 
-p, h1, h2, button{
+p, h1, h2, button, a{
     color:white;
 }
 
@@ -15,22 +15,19 @@ button{
     margin-left:85%;
 }
 
-#resume{
+.resume{
     background:black;
     color:white;
     text-decoration:none;
 }
 
-#consequences{
-    width:50%;
-}
-
 #bio{
     text-align:center;
-    margin-left:35%;
-    margin-right:35%;
+    margin-left:50px;
+    margin-right:50px;
 }
 
 img{
-    border-radius:20px;
+    border-radius:25px;
+    width:40%
 }
