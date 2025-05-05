@@ -1,3 +1,7 @@
 * {
-    background-color:aqua;
+    background:aqua;
+}
+
+img {
+    border-radius: 25px;
 }
