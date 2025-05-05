@@ -26,15 +26,19 @@ button{
     text-decoration:none;
 }
 
-#bio, #email{
+#bio{
     text-align:center;
     margin-left:27.5%;
     margin-right:27.5%; 
     font-size:28px;
+    margin-top:75px;
 }
 
-#bio{
-    margin-top:75px;
+#email{
+    text-align:center;
+    margin-left:27.5%;
+    margin-right:27.5%; 
+    font-size:28px;
 }
 
 #works{
@@ -54,7 +58,7 @@ img{
 
 .homeh2{
     font-size:32px;
-    margin-top:20px;
+    margin-top:15px;
 }
 
 .homeLink{
@@ -88,5 +92,5 @@ img{
 
 .firstImg{
     margin-top:75px;
-    width:60%;
+    width:70%;
 }
