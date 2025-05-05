@@ -9,16 +9,11 @@ p, h1, h2, button, a{
 button{
     background:black;
     border:2px solid #0096ff;
-    display:flex;
-    justify-content:center;
-    flex-flow:row nowrap;
 }
 
-/*#button1{
+#button1{
     margin-left:65%;
-}*/
-
-
+}
 
 .resume{
     background:black;
@@ -36,7 +31,7 @@ button{
 }
 
 #works{
-    font-size:18px;
+    font-size:20px;
 }
 
 img{
@@ -53,4 +48,5 @@ img{
     margin:auto;
     justify-content:center;
     align-items:center;
+    text-align:center;
 }
