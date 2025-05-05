@@ -55,6 +55,14 @@ img{
 
 .homeLink{
     margin-top:10px;
+    font-size:22px;
+}
+
+.homeP{
+    margin-top:10px;
+    margin-left:30%;
+    margin-right:30%;
+    font-size:18px;
 }
 
 #homeFlex{
@@ -64,4 +72,11 @@ img{
     justify-content:center;
     align-items:center;
     text-align:center;
+}
+
+#finalHome{
+    margin-bottom:50px;
+    margin-left:30%;
+    margin-right:30%;
+    font-size:18px;
 }
