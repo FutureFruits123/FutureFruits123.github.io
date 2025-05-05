@@ -12,12 +12,13 @@ button{
 }
 
 #button1{
-    margin-left:70%;
+    margin-left:85%;
 }
 
 #resume{
     background:black;
     color:white;
+    text-decoration:none;
 }
 
 #consequences{
@@ -26,6 +27,8 @@ button{
 
 #bio{
     text-align:center;
+    margin-left:35%;
+    margin-right:35%;
 }
 
 img{
