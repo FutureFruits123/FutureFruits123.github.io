@@ -9,23 +9,28 @@ p, h1, h2, button, a{
 button{
     background:black;
     border:2px solid #0096ff;
-    width:200px;
+    display:flex;
+    justify-content:right;
 }
 
-#button1{
-    margin-left:50%;
-}
+/*#button1{
+    margin-left:65%;
+}*/
+
+
 
 .resume{
     background:black;
     color:white;
     text-decoration:none;
+    margin-right:10%;
 }
 
 #bio{
     text-align:center;
     margin-left:25%;
     margin-right:25%; 
+    font-size:30px;
 }
 
 #bio + p + p{
