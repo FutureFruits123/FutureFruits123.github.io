@@ -9,7 +9,7 @@ p, h1, h2, button, a{
 button{
     background:black;
     border:2px solid #0096ff;
-    width:10px;
+    width:100px;
 }
 
 #button1{
@@ -30,7 +30,7 @@ button{
 
 img{
     border-radius:25px;
-    width:40%
+    width:20%
 }
 
 #test{
