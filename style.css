@@ -73,7 +73,7 @@ img{
     font-size:22px;
 }
 
-#homeFlex, .projectFlex{
+#homeFlex{
     display:flex;
     flex-direction:column;
     margin:auto;
@@ -81,7 +81,7 @@ img{
     align-items:center;
     text-align:center;
 }
-/*
+
 .projectFlex{
     display:flex;
     flex-direction:column;
@@ -90,7 +90,7 @@ img{
     align-items:center;
     text-align:center;
 }
-*/
+
 #finalHome{
     margin-bottom:100px;
     margin-top:15px;
