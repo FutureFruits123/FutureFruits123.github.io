@@ -32,10 +32,11 @@ button{
     margin-left:25%;
     margin-right:25%; 
     font-size:26px;
+    margin-top:50px;
 }
 
-#bio + p{
-    color:red;
+#works{
+    font-size:18px;
 }
 
 img{
@@ -48,7 +49,7 @@ img{
 
 #test{
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     margin:auto;
     justify-content:center;
     align-items:center;
