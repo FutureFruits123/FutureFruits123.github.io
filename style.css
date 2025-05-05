@@ -16,6 +16,11 @@ button{
 
 #resume{
     background:black;
+    color:white;
+}
+
+#consequences{
+    size:50%;
 }
 
 #bio{
