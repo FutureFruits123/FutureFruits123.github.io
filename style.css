@@ -10,7 +10,7 @@ button{
     background:black;
     border:2px solid #0096ff;
     display:flex;
-    justify-content:right;
+    justify-content:center;
 }
 
 /*#button1{
@@ -33,7 +33,7 @@ button{
     font-size:30px;
 }
 
-#bio + p + p{
+#bio + p{
     color:red;
 }
 
