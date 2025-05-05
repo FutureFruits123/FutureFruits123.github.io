@@ -26,11 +26,14 @@ button{
     text-decoration:none;
 }
 
-#bio{
+#bio, #email{
     text-align:center;
     margin-left:27.5%;
     margin-right:27.5%; 
     font-size:28px;
+}
+
+#bio{
     margin-top:75px;
 }
 
@@ -51,11 +54,10 @@ img{
 
 .homeh2{
     font-size:32px;
-    margin-top:25px;
+    margin-top:20px;
 }
 
 .homeLink{
-    margin-top:0px;
     font-size:24px;
 }
 
