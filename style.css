@@ -17,7 +17,7 @@ button{
 }
 
 #button1{
-    margin-left:65%;
+    margin-left:70%;
 }
 
 .resume{
@@ -50,16 +50,16 @@ img{
 
 .homeh2{
     font-size:26px;
-    margin-top:15px;
+    margin-top:25px;
 }
 
 .homeLink{
-    margin-top:10px;
+    margin-top:15px;
     font-size:22px;
 }
 
 .homeP{
-    margin-top:10px;
+    margin-top:15px;
     margin-left:30%;
     margin-right:30%;
     font-size:18px;
@@ -76,6 +76,7 @@ img{
 
 #finalHome{
     margin-bottom:50px;
+    margin-top:15px;
     margin-left:30%;
     margin-right:30%;
     font-size:18px;
