@@ -31,7 +31,7 @@ button{
     text-align:center;
     margin-left:25%;
     margin-right:25%; 
-    font-size:30px;
+    font-size:26px;
 }
 
 #bio + p{
@@ -40,12 +40,12 @@ button{
 
 img{
     border-radius:25px;
-    width:15%
+    width:30%
 }
 
 #test{
     display:flex;
-    flex-direction:column;
+    flex-direction:row;
     margin:auto;
     justify-content:center;
     align-items:center;
