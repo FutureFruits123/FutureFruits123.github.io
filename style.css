@@ -7,11 +7,12 @@ p, h1, h2, button{
 }
 
 button{
-    display:flex;
-    flex-flow:row nowrap;
-    justify-content:right;
     background:black;
     border:2px solid #0096ff;
+}
+
+#button1{
+    margin-left:70%;
 }
 
 #resume{
@@ -20,14 +21,11 @@ button{
 }
 
 #consequences{
-    size:50%;
+    width:50%;
 }
 
 #bio{
     text-align:center;
-    /*display:flex;
-    flex-flow:column wrap;
-    justify-content:center;*/
 }
 
 img{

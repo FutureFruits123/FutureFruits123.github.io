@@ -8,7 +8,7 @@
   </head>
   <body>
     <a-scene id = "home">
-      <button onclick = "pageSwitch(1, project1, project2, home)">Platformer</button>
+      <button onclick = "pageSwitch(1, project1, project2, home)" id="button1">Platformer</button>
       <button onclick = "pageSwitch(2, project2, project1, home)">C--seq----es</button>
       <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank" id="resume">My Resume</a></button>
 
@@ -23,7 +23,7 @@
       <p>A 2D platformer game where you jump across pits to reach the end of the level. There are stars to collect and enemies to avoid. This was built in GDScript using the Godot Engine.</p>
       
       <img src="consequencesintro.png" id="consequences">
-      <h2></h2>
+      <h2>C--seq----es</h2>
       <a href="https://github.com/FutureFruits123/C--seq----es.git" target="_blank">GitHub repository</a>
       <p>A text-based story game about a journey of self improvement. The user controls the main character by typing words into a terminal. This was built in Python.</p>
 
@@ -39,7 +39,7 @@
     </a-scene>
 
     <a-scene id = "project1" style = "display:none">
-      <button onclick = "pageSwitch(0, home, project1, project2)">Home</button>
+      <button onclick = "pageSwitch(0, home, project1, project2)" id="button1">Home</button>
       <button onclick = "pageSwitch(2, project2, project1, home)">C--seq----es</button>
       <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank" id="resume">My Resume</a></button>
 
@@ -48,7 +48,7 @@
     </a-scene>
 
     <a-scene id = "project2" style = "display:none">
-      <button onclick = "pageSwitch(0, home, project1, project2)">Home</button>
+      <button onclick = "pageSwitch(0, home, project1, project2)" id="button1">Home</button>
       <button onclick = "pageSwitch(1, project1, project2, home)">Platformer</button>
       <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank" id="resume">My Resume</a></button>
 
