@@ -10,6 +10,6 @@ function pageSwitch(pageNumber, pageBlock, pageNone1, pageNone2) {
         pageNone1.style.display = 'none';
         pageNone2.style.display = 'none';
         
-        activePage = pageNumber
+        activePage = pageNumber 
     }
 }
