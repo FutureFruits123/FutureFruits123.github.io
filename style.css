@@ -9,6 +9,7 @@ p, h1, h2, button, a{
 button{
     background:black;
     border:2px solid #0096ff;
+    width:40px;
 }
 
 #button1{
