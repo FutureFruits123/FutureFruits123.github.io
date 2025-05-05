@@ -1,5 +1,7 @@
 *{
     background:#ff69b4;
+    margin:0px;
+    padding:0px;
 }
 
 p, h1, h2, button, a{
@@ -9,6 +11,7 @@ p, h1, h2, button, a{
 button{
     background:black;
     border:2px solid #0096ff;
+    padding:10px;
 }
 
 #button1{
@@ -39,10 +42,14 @@ img{
 }
 
 .homeImg{
-    width:30%
+    width:50%
 }
 
-#test{
+h2{
+    font-size:26px;
+}
+
+#homeFlex{
     display:flex;
     flex-direction:column;
     margin:auto;
