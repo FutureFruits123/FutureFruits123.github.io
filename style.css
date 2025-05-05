@@ -12,6 +12,7 @@ button{
     background:black;
     border:2px solid #0096ff;
     padding:10px;
+    margin-top:10px;
     margin-right:5px;
 }
 
@@ -31,7 +32,7 @@ button{
     margin-left:25%;
     margin-right:25%; 
     font-size:26px;
-    margin-top:50px;
+    margin-top:60px;
 }
 
 #works{
@@ -48,8 +49,13 @@ img{
     width:50%
 }
 
-h2{
+#homeflex > h2{
     font-size:26px;
+    margin-top:15px;
+}
+
+#homeflex > a{
+    margin-top:10px;
 }
 
 #homeFlex{
