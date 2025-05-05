@@ -12,10 +12,11 @@ button{
     background:black;
     border:2px solid #0096ff;
     padding:10px;
+    margin-right:5px;
 }
 
 #button1{
-    margin-left:65%;
+    margin-left:90%;
 }
 
 .resume{
