@@ -38,6 +38,7 @@ button{
     text-align:center;
     font-size:22px;
     margin-top:20px;
+    margin-bottom:15px;
 }
 
 img{
@@ -60,6 +61,7 @@ img{
 
 .homeP{
     margin-top:15px;
+    margin-bottom:15px;
     margin-left:30%;
     margin-right:30%;
     font-size:18px;
