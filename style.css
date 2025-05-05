@@ -1,7 +1,12 @@
-* {
+*{
     background:aqua;
 }
 
-img {
-    border-radius: 25px;
+button{
+    background:black;
+    color:white;
+}
+
+img{
+    border-radius:25px;
 }
