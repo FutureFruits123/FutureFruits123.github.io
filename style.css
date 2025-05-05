@@ -13,7 +13,7 @@ button{
     border:2px solid #0096ff;
     padding:10px;
     margin-top:15px;
-    margin-right:5px;
+    margin-right:10px;
 }
 
 #button1{
@@ -36,7 +36,7 @@ button{
 
 #works{
     text-align:center;
-    font-size:26px;
+    font-size:24px;
     margin-top:20px;
     margin-bottom:30px;
 }
@@ -55,19 +55,19 @@ img{
 }
 
 .homeLink{
-    margin-top:10px;
-    font-size:26px;
+    margin-top:5px;
+    font-size:24px;
 }
 
 .homeP{
     margin-top:15px;
-    margin-bottom:30px;
+    margin-bottom:50px;
     margin-left:30%;
     margin-right:30%;
     font-size:22px;
 }
 
-#homeFlex{
+#homeFlex, #p1Flex{
     display:flex;
     flex-direction:column;
     margin:auto;
@@ -82,4 +82,9 @@ img{
     margin-left:30%;
     margin-right:30%;
     font-size:22px;
+}
+
+.firstImg{
+    margin-top:75px;
+    width:70%;
 }
