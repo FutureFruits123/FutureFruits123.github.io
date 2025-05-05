@@ -67,7 +67,7 @@ img{
     font-size:22px;
 }
 
-#homeFlex, #p1Flex{
+#homeFlex, .projectFlex{
     display:flex;
     flex-direction:column;
     margin:auto;
