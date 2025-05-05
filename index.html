@@ -8,9 +8,9 @@
   </head>
   <body>
     <a-scene id = "home">
-      <button onclick = "pageSwitch(1, project1, project2, home)">2D Platformer</button>
+      <button onclick = "pageSwitch(1, project1, project2, home)">Platformer</button>
       <button onclick = "pageSwitch(2, project2, project1, home)">C--seq----es</button>
-      <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
+      <button id="resume"><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
 
       <p>Hello, my name is Iain, although I prefer being called Lucas. This is my portfolio! I am currently a senior at Pasadena High School. I am interested in computer science, software development, and game development. My email is futurelucas123@gmail.com.</p>
       <p>These are a few of my works:</p>
@@ -39,7 +39,7 @@
     <a-scene id = "project1" style = "display:none">
       <button onclick = "pageSwitch(0, home, project1, project2)">Home</button>
       <button onclick = "pageSwitch(2, project2, project1, home)">C--seq----es</button>
-      <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
+      <button id="resume"><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
 
       <img src="temp.jpg">
       <h1>Godot Platformer</h1>
@@ -47,8 +47,8 @@
 
     <a-scene id = "project2" style = "display:none">
       <button onclick = "pageSwitch(0, home, project1, project2)">Home</button>
-      <button onclick = "pageSwitch(1, project1, project2, home)">2D Platformer</button>
-      <button><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
+      <button onclick = "pageSwitch(1, project1, project2, home)">Platformer</button>
+      <button id="resume"><a href="https://docs.google.com/document/d/1tYCTmRglEpoeEeMilcDiyOta8Pvpm7BzIx5P4Ytcnp8/edit?usp=sharing" target="_blank">My Resume</a></button>
 
       <img src="consequencesintro.png">
       <h1>C--seq----es</h1>
