@@ -104,6 +104,22 @@ img{
     width:70%;
 }
 
+.projectH1{
+    margin-top:25px;
+    font-size:48px;
+}
+
+.projectLink{
+    margin-bottom:25px;
+    font-size:40px;
+}
+
+.projectH2{
+    font-size:32px;
+    margin-top:25px;
+}
+
+
 .projectImg{
     width:50%;
 }
