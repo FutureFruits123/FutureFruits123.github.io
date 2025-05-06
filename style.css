@@ -119,6 +119,15 @@ img{
     margin-top:25px;
 }
 
+.projectP{
+    margin-left:30%;
+    margin-right:30%;
+    font-size:22px;
+}
+
+.projectFeatures{
+    font-size:22px;
+}
 
 .projectImg{
     width:50%;
