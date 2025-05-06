@@ -51,21 +51,21 @@
         <a href="https://github.com/FutureFruits123/game-project" target="_blank" class="projectLink">GitHub repository</a>
 
         <h2 class="projectH2">The Assignment</h2>
-        <p class="projectP">lesbians</p>
+        <p class="projectP">In September of 2024, I was tasked with developing a game using Godot. We were given the choice to work in groups or by ourselves, and I chose to work alone. There were not any specific requirements for the game, and so I mostly got to do whatever I wanted. I decided on making a 2D platformer because I personally enjoy those types of games, and figured it was probably something that I could complete relatively easily.</p>
         
         <h2 class="projectH2">Initial Ideas</h2>
-        <p class="projectP">e</p>
+        <p class="projectP">The first thing I did was figure out what I wanted the movement system to be. My original idea was a lot more complicated, but for the sake of time and simplicity I decided on just having dashing and double jumping. As for the enemies, I came up with Sirius, a fireball, and Arneb, a rabbit. Sirius would shoot towards the player when they got within a certain range, and Arneb would chase after the player. I also planned the design of three different levels, however due to time constraints I was only able to add two of them.</p>
         
         <h2 class="projectH2">Development</h2>
-        <p class="projectP">e</p>
+        <p class="projectP">I got the sprites for the player, enemies, background, and tiles from the internet. After that, I started building the first level. Once I was done, I gave the player and tiles collision. Dashing and double jumping were added after, and now the game was in a playable state. Coding Sirius and Arneb's movement and hitboxes is by far the worst thing I had to do, and was significantly harder than I initially thought it would be. There were so many bugs with the two, that I decided to put it on hold and come back to it later. I decided to focus on building the second level. After it was complete, I added a teleporter at the end of level one that brings you to level two. It was around this time I had the idea to add collectible stars to the game. I placed one in each of the levels. After that, I added a respawn system for when you fall into the void or get hit by an enemy. Finally, it was time to get back to Sirius and Arneb. After a lot of work, I got both of them to be somewhat functional, but very imperfect. Unfortunately, I ran out of time before I could completely fix their strange behaviors. Overall however, I am still very proud of what I made.</p>
         
         <h2 class="projectH2" id="finalProjectH2">Features</h2>        
         <img src="movement.png" class ="projectImg">
-        <p class="projectFeatures">e</p>
+        <p class="projectFeatures">This game's movement is pretty simple. You can move left and right by holding 'A' or 'D' respectively, pressing 'Space' in midair allows you to do a second jump, and pressing 'Shift' allows you to dash in the direction you are moving. Certain jumps require double jumping, some require dashing, and others require you to use both double jumping and dashing.</p>
         <img src="enemies.png" class ="projectImg">
-        <p class="projectFeatures">e</p>
+        <p class="projectFeatures">There are two enemy types, a fireball called Sirius and a rabbit called Arneb. Sirius has a long Area2D node in front of their sprite, and when the player enters that node, Sirius begins to move towards them at high speeds. Arneb also uses Area2D nodes, however they have significantly less width and are taller. Coming into contact with either enemy will send you back to the beginning of the level.</p>
         <img src="star.png" class ="projectImg">
-        <p id="finalProject">e</p>
+        <p id="finalProject">Star collectibles were added pretty late into the development process. Walking into one makes it disappear, and adds +1 to your score. There are two collectible stars in the game, one in each level. The first one is accessible through a secret passageway, and the second one requires the player to make some difficult jumps. If I had enough time to create a third level, there would have been another star in there as well.</p>
       </div>
     </a-scene>
 
